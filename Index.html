@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Lista de Desejos</title>
+    <link rel="stylesheet" href="style.css">
+</head><body><main class="container">
+    <h1>✨ Minha Lista de Desejos</h1>
+
+    <p class="descricao">
+        Organize seus sonhos, planos e coisas que você deseja conquistar.
+    </p>
+
+    <div class="formulario">
+        <input 
+            type="text" 
+            id="campoDesejo" 
+            placeholder="Digite um desejo..."
+        >
+
+        <button id="botaoAdicionar">Adicionar</button>
+    </div>
+
+    <section>
+        <h2>Meus desejos</h2>
+
+        <ul id="listaDesejos"></ul>
+
+        <p id="mensagemVazia">
+            Sua lista está vazia. Adicione seu primeiro desejo! 🌱
+        </p>
+    </section>
+
+    <div class="acoes">
+        <button id="botaoLimpar">Limpar lista</button>
+        <button id="botaoConcluir">Concluir todos</button>
+    </div>
+
+    <p id="contador">0 desejos</p>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
